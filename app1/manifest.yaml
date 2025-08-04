@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: app1
-        image: joindevops/app1:v1
+        image: vrapracash/app1:v1
 ---
 kind: Service
 apiVersion: v1
