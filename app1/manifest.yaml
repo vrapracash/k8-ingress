@@ -47,14 +47,14 @@ metadata:
       #kubernetes.io/ingress.class: alb
       alb.ingress.kubernetes.io/scheme: internet-facing
       alb.ingress.kubernetes.io/target-type: ip
-      alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:us-east-1:315069654700:certificate/eefec79d-8012-4e7e-a530-baf154b833f2
+      alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:us-east-1:116981771137:certificate/5cdc71ee-17bd-4e7e-ab65-203b383c388d
       alb.ingress.kubernetes.io/listen-ports: '[ {"HTTPS": 443}]'
       alb.ingress.kubernetes.io/tags: Environment=dev,Team=test
       alb.ingress.kubernetes.io/group.name: expense
 spec:
     ingressClassName: alb
     rules:
-    - host: "app1.daws81s.online"
+    - host: "app1.veeraprakash.online"
       http:
         paths:
         - pathType: Prefix
